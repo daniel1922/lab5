@@ -3,7 +3,11 @@ import java.util.Scanner;
 public class Dice {
 	       
 	public static void main(String[] args) {
-         
+        
+		Scanner sc = new Scanner(System.in);	
+		System.out.println("Welcome to the Grand Circus Casino! Roll the dice? (yes/no):");
+		String enteredName = sc.nextLine();
+			
 		int die1;
 		int die2;
 		int roll = 0;
