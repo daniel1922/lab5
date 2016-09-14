@@ -6,7 +6,6 @@ public class Dice {
         
 		Scanner input = new Scanner(System.in);	
 		System.out.println("Welcome to the Grand Circus Casino! Roll the dice? (yes/no):");
-		String enteredName = input.nextLine();
 			
 		int die1;
 		int die2;
