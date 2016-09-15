@@ -12,7 +12,7 @@ public class Dice {
 		int roll = 0;
 		String continueLoop;
 		do{	
-		die1 = (int)(Math.random()*6) + 1;
+		die1 = (int)(Math.random()*6) + 1; 
 		die2 = (int)(Math.random()*6) + 1;
 		
 		System.out.println("The first die comes up " + die1);
@@ -21,9 +21,13 @@ public class Dice {
 		
 		System.out.println("Continue(yes/no): ");
 		continueLoop = input.nextLine();
+		
 	}		
 		while(continueLoop.equalsIgnoreCase("yes"));
-		}
+		//close while loop
+		System.out.println("Bye");
+	}
+	
 	}
 
           
